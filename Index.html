@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang = "fr">
+<head>
+    <style>
+    body{
+     background-color: #F7F7F7;
+    }
+    section{
+    text-align: left;
+    }
+    h1{
+    font-size:40px;
+    border: 1px solid black;
+   text-align: center;
+   background-color: #F7F9FF;
+    }
+
+    p{
+    font-size:20px;
+
+    }
+
+
+    .content-1{
+     border: 1px solid black;
+     background: linear-gradient(45deg, #F1F3FF 0%, #D8DEFF 100%);
+    font-size:20px;
+    border-radius: 2%;
+    padding-left:2.5em;
+    padding-right:2.5em;
+    }
+    .separateur{
+    padding-top:2.5em;
+    }
+    .content-2{
+
+     border: 1px solid black;
+     background: linear-gradient(45deg, #F1F3FF 0%, #D8DEFF 100%);
+    padding-left:2.5em;
+    padding-right:2.5em;
+    border-radius: 2%;
+    }
+
+
+</style>
+    <meta charset="utf-8">
+    <title>Présentation</title>
+</head>
+<body>
+<h1>Ruben Preti- -Levy</h1>
+<section>
+
+
+
+        <div class = "content-1">
+
+            <h4>Jeu de données: <a href="https://www.data.gouv.fr/fr/datasets/medecins-accredites-par-la-has/">Médecins accrédités par la Haute Autorité de Santé</a> </h4>
+            <p>Ce fichier a pour objectif de répertorier les médecins qui sont accrédités par la Haute Autorité de Santé.Afin de gérer les risques et d'assurer une qualité de soins aux patients.</p>
+            <p>Elle concerne les médecins exerçant une spécialité ou une activité dite «à risques» en établissement de santé décret n° 2006-909 du 21 juillet 2006 : gynécologie-obstétrique, anesthésie-réanimation, chirurgie, spécialités interventionnelles, échographie obstétricale, réanimation ou de soins intensifs.</p>
+            <p> le fichier est constitué de 8 informations: <b>Nom</b>/<b>Prenom</b>/<b>Spécialité</b>/<b>Date d'accréditation</b>/<b>OA:Nom de l'organisation d'accrédiation</b>/<b>Département</b>/<b>FINESS: Code d'indentification de l'établissement d'exercice</b>/<b>Statut</b> </p>
+
+        </div>
+        <div class = 'separateur'>
+        </div>
+        <div class = "content-2">
+            <p>Le fichier python va automatiser la création d'un site qui présentera le pourcentage de spécialistes validés par la Haute Autorité de Santé.</p>
+            <p> le fichier est constitué de 2 informations: <b>Spécialité</b>/<b>Pourcentage d'accréditation</b> </p>
+            <p>Ce fichier contient un lien vers un tableau des praticiens par spécialité qui sera constitué des informations suivantes: <b>Nom</b>/<b>Prenom</b>/<b>Spécialité</b>/<b>Date d'accréditation</b>/<b>Département</b>/<b>Statut</b> </p>
+            <p>lien vers le site:    <a href="tableau_principal.html">Médecins accrédités par la Haute Autorité de Santé</a> </p>
+
+            <h4>Le calcul effectué:</h4>
+            <p><b>Pourcentage</b>: Je fais le nombre de praticiens spécialistes accrédités divisé par le total de médecins accrédités *100</p>
+        </div>
+</section>
+</body>
+</html>

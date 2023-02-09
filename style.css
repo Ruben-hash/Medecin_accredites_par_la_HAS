@@ -1,0 +1,48 @@
+
+    table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid black;
+    background: linear-gradient(45deg, #F6FDFF 0%, #F8FDFF 100%);
+    }
+
+    thead th:nth-child(1) {
+    width: 30%;
+    
+    }
+
+    thead th:nth-child(2) {
+    width: 20%;
+    }
+
+    thead th:nth-child(3) {
+    width: 15%;
+    }
+
+    thead th:nth-child(4) {
+    width: 35%;
+    }
+
+    td {
+     padding: 20px;
+     font-size:25px;
+     padding-right: 3em;
+     border: 0.5px solid black;
+    }
+    th{
+     padding: 20px;
+     font-size:28px;
+     padding-right: 3em;
+     border: 0.5px solid black;
+    }
+
+    .nombre{
+    font-size: 25px;
+    padding-left: 20%;
+    }
+
+    .valeur{
+    font-size: 20px;
+     padding-left: 7%;
+    }
